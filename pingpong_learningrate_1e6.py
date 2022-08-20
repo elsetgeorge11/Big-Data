@@ -218,8 +218,8 @@ model['W2'] = np.random.randn(H) / np.sqrt(H)
 # model = pickle.load(open('model.pkl', 'rb'))
 # hyperparameters
 batch_size = 10 # every how many episodes to do a param update?
-#change learning_rate to 1e-6
-learning_rate = 1e-6
+#change learning_rate to 1e-3
+learning_rate = 1e-3
  
 gamma = 0.99 # discount factor for reward
 decay_rate = 0.99 # decay factor for RMSProp leaky sum of grad^2
